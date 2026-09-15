@@ -4,14 +4,20 @@ categories:
 tags:
   - typescript
   - javascript
+  - nodejs
+  - nestjs
+  - ai-generated-code
 license: MIT License
 types:
   - cli
   - ide-plugin
 source: "https://github.com/RoloBits/nestjs-doctor"
-homepage: "https://github.com/RoloBits/nestjs-doctor"
+homepage: "https://nestjs.doctor"
 description: >-
-  Static analysis tool for NestJS applications. Detects anti-patterns across
-  security, performance, correctness, and architecture with 30+ built-in rules.
-  Outputs a 0-100 health score. Includes module graph visualization, endpoint
-  dependency graphs, and database schema analysis. CLI and VS Code extension.
+  Free, open-source static analysis for NestJS. Reads the module graph from
+  source without booting the app, runs rules across security, correctness,
+  architecture, performance and schema, and scores the project 0-100. HTML
+  report with the module graph, circular imports, traced endpoints and an ER
+  diagram (Prisma, TypeORM, Drizzle, MikroORM). No LLM at scan time; nothing
+  about your code leaves the machine. CLI, GitHub Action that comments only on
+  what a pull request introduced, VS Code extension.

@@ -209,6 +209,9 @@
 - name: Mobile
   value: mobile
   type: other
+- name: NestJS
+  value: nestjs
+  type: other
 - name: Nim
   value: nim
   type: language
